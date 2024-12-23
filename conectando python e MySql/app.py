@@ -1,6 +1,8 @@
 import mysql.connector 
 from mysql.connector import Error
 
+#pip install mysql-connector-python
+
 def conectar():
     """Conexão estabelecida com Banco de Dados"""
     try:
